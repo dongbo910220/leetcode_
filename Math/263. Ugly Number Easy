@@ -1,0 +1,32 @@
+'''
+https://leetcode.com/problems/ugly-number/
+'''
+'''
+Success
+Details 
+Runtime: 8 ms, faster than 99.57% of Python online submissions for Ugly Number.
+Memory Usage: 12.9 MB, less than 7.69% of Python online submissions for Ugly Number.'''
+
+
+class Solution(object):
+    def isUgly(self, num):
+        """
+        :type num: int
+        :rtype: bool
+        """
+        if num <= 0:
+            return False
+
+        while num != 1:
+            if num % 2 == 0:
+                num = num // 2
+                continue
+            if num % 3 == 0:
+                num = num // 3
+                continue
+            if num % 5 == 0:
+                num = num // 5
+                continue
+            else:
+                return False
+        return True

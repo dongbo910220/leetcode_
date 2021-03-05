@@ -1,0 +1,26 @@
+class Solution(object):
+    def missingTwo(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        N = len(nums) + 2
+        total = 0
+        for num in range(N+1):
+            total += num
+        threshold = total
+        for num in nums:
+            threshold -= num
+        sumOfTwo = threshold
+        mid = sumOfTwo // 2
+        part_sum_1 = 0
+        for num in range(mid+1):
+            part_sum_1 += num
+        part_sum_2 = 0
+        for num in nums:
+            if num <= mid:
+                part_sum_2 += num
+        res = []
+        firstNum = part_sum_1 - part_sum_2
+        secNum = sumOfTwo - firstNum
+        return [firstNum, secNum]
