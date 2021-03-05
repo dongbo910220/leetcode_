@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dcb877b-d5b4-4f36-8717-31ba832311cd" name="Default Changelist" comment="" />
+    <list default="true" id="0dcb877b-d5b4-4f36-8717-31ba832311cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linked List/148. Sort List Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linked List/148. Sort List Medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题leetcode/3. 无重复字符的最长子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/刷题leetcode/3. 无重复字符的最长子串.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YmlnoUowGy0nUk45QYXNIJFpuj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
@@ -167,6 +175,17 @@
       <updated>1583555819937</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

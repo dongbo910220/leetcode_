@@ -57,3 +57,46 @@ class Solution(object):
         if l2:
             tail.next = l2
         return dummy.next
+
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def sortList(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        if not head or not head.next:
+            return head
+        slow = head
+        fast = slow.next
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
+        mid = slow.next
+        # 断开
+        slow.next = None
+        l1 = self.sortList(head)
+        l2 = self.sortList(mid)
+        return self.merge(l1, l2)
+
+    def merge(self, l1, l2):
+        dummy = ListNode(-1)
+        tail = dummy
+        while l1 and l2:
+            if l1.val < l2.val:
+                tail.next = l1
+                tail = tail.next
+                l1 = l1.next
+            else:
+                tail.next = l2
+                tail = tail.next
+                l2 = l2.next
+        if l1:
+            tail.next = l1
+        if l2:
+            tail.next = l2
+        return dummy.next
