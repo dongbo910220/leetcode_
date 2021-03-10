@@ -35,6 +35,30 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         index = 0
+        res = []
+        path = []
+        self.dfs(candidates, target, res, path)
+        return res
+
+    def dfs(self, candidates, target, res, path):
+        if target == 0:
+            res.append(path)
+            return
+        elif target < 0:
+            return
+        else:  # target > 0
+            for idx, num in enumerate(candidates):
+                self.dfs(candidates[idx:], target - num, res, path + [num])
+
+
+class Solution(object):
+    def combinationSum(self, candidates, target):
+        """
+        :type candidates: List[int]
+        :type target: int
+        :rtype: List[List[int]]
+        """
+        index = 0
         path = []
         res = []
         self.dfs(candidates, target, index, path, res)

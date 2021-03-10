@@ -100,3 +100,67 @@ class Solution(object):
         if l2:
             tail.next = l2
         return dummy.next
+
+# Definition for singly-linked list. O(n) 复杂度方法
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def sortList(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        if not head or not head.next:
+            return head
+        dummy = ListNode(-1); dummy.next = head; tmp = head
+        length = 0
+        while tmp:
+            tmp = tmp.next
+            length += 1
+        step = 1
+        while step < length:
+            cur, new_head = dummy.next, dummy
+            while cur:
+                left = cur
+                right = self.split(left, step)
+                cur = self.split(right, step)
+                new_head = self.merge(left, right, new_head)
+            step <<= 1
+        return dummy.next
+
+    # divide the linked list into two lists
+    # first linked list contains n nodes
+    # return the head of second linked list
+    def split(self, head, n):
+        for i in range(n-1):
+            if head:
+                head = head.next
+            else:
+                break
+        if not head:
+            return None
+        second = head.next
+        # cut the link
+        head.next = None
+        return second
+
+    # merge 2 sorted lists, and append the result to head
+    # return the tail
+    def merge(self, p1, p2, new_head):
+        p = new_head
+        while p1 and p2:
+            if p1.val > p2.val:
+                p1, p2 = p2, p1
+            #p1 is the small one
+            p.next = p1
+            p = p.next
+            p1 = p1.next
+        if p1:
+            p.next = p1
+        if p2:
+            p.next = p2
+        while p.next:
+            p = p.next
+        return p

@@ -2,6 +2,32 @@
 https://leetcode.com/problems/combination-sum-ii/submissions/
 '''
 
+class Solution(object):
+    def combinationSum2(self, candidates, target):
+        """
+        :type candidates: List[int]
+        :type target: int
+        :rtype: List[List[int]]
+        """
+        candidates.sort()
+        index = 0
+        path = []
+        res = []
+        self.dfs(candidates, target, index, path, res)
+        return res
+
+    def dfs(self, candidates, target, index, path, res):
+        if target < 0:
+            return
+        if target == 0:
+            res.append(path)
+            return
+        for i in range(index, len(candidates)):
+            if i > index and candidates[i] == candidates[i-1]:
+                pass
+            else:
+                self.dfs(candidates, target - candidates[i], i+1, path + [candidates[i]], res)
+
 
 class Solution(object):
     def combinationSum2(self, candidates, target):
