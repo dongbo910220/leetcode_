@@ -59,3 +59,26 @@ Runtime: 48 ms, faster than 71.07% of Python online submissions for Longest Incr
 Memory Usage: 13.2 MB, less than 6.82% of Python online submissions for Longest Increasing Subsequence.
 Next challenges:
 '''
+
+class Solution(object):
+    def lengthOfLIS(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        if not nums:
+            return 0
+        tails = [0] * len(nums)
+        size = 0
+        for num in nums:
+            i, j = 0, size #  head and tail
+            while i < j:
+                mid = (i + j) // 2
+                if tails[mid] < num:
+                    i = mid + 1
+                else:
+                    j = mid
+            tails[i] = num
+            if i + 1 > size:
+                size += 1
+        return size

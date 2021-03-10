@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dcb877b-d5b4-4f36-8717-31ba832311cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/912. 排序数组.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked List/148. Sort List Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linked List/148. Sort List Medium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search/40. Combination Sum II Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search/40. Combination Sum II Medium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/39. Combination Sum  Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/39. Combination Sum  Medium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/78. Subsets Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/78. Subsets Medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/300. Longest Increasing Subsequence Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/300. Longest Increasing Subsequence Medium.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
