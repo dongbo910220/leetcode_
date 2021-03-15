@@ -1,0 +1,14 @@
+# Write your MySQL query statement below
+select max(salary) as SecondHighestSalary
+from employee
+where salary < (select max(salary)
+from employee)
+
+
+# 错误的解法 因为没有的时候无法返回Null
+# 错误的解法 因为没有的时候无法返回Null
+# Write your MySQL query statement below
+select salary as SecondHighestSalary
+from employee
+order by salary desc
+limit 1, 1;
