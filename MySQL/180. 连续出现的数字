@@ -1,0 +1,4 @@
+# Write your MySQL query statement below
+select distinct(tb1.num) as ConsecutiveNums
+from logs as tb1, logs as tb2, logs as tb3
+where tb1.id + 1 = tb2.id and tb2.id + 1 = tb3.id and tb1.num = tb2.num and tb2.num = tb3.num;
