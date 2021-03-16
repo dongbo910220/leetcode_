@@ -1,0 +1,5 @@
+# Write your MySQL query statement below
+select distinct tb1.email as `email`
+from Person as tb1
+inner join Person as tb2
+on tb1.email = tb2.email and tb1.id != tb2.id;

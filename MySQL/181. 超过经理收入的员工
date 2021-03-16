@@ -1,0 +1,6 @@
+# Write your MySQL query statement below
+select tb1.name as `Employee`
+from Employee as tb1
+left join Employee as tb2
+on tb1.managerId = tb2.id
+where tb1.salary > tb2.salary;

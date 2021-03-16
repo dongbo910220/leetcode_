@@ -1,0 +1,10 @@
+# Write your MySQL query statement below
+select tb1.score as Score , (select count(distinct tb2.score)
+                            from scores as tb2
+                            where tb2.score > tb1.score) + 1 as `rank`
+from scores as tb1
+order by tb1.score desc;
+
+# Write your MySQL query statement below
+select score, DENSE_Rank() over (order by score desc) as `rank`
+from scores
