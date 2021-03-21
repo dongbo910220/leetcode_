@@ -1,0 +1,23 @@
+# Write your MySQL query statement below
+-- select distinct tb1.id, a.revenue  as Jan_Revenue, b.revenue as Feb_Revenue
+-- from Department as tb1
+-- left join (select * from Department where month = 'Jan') as a
+-- on a.id = tb1.id
+-- left join (select * from Department where month = 'Feb') as b
+-- on b.id = tb1.id
+select id,
+    sum(case month when 'Jan' then revenue  end) as Jan_Revenue,
+    sum(case month when 'Feb' then revenue end) as Feb_Revenue,
+    sum(case month when 'Mar' then revenue end) as Mar_Revenue,
+    sum(case month when 'Apr' then revenue end) as Apr_Revenue,
+    sum(case month when 'May' then revenue end) as May_Revenue,
+    sum(case month when 'Jun' then revenue end) as Jun_Revenue,
+    sum(case month when 'Jul' then revenue end) as Jul_Revenue,
+    sum(case month when 'Aug' then revenue end) as Aug_Revenue,
+    sum(case month when 'Sep' then revenue end) as Sep_Revenue,
+    sum(case month when 'Oct' then revenue end) as Oct_Revenue,
+    sum(case month when 'Nov' then revenue end) as Nov_Revenue,
+    sum(case month when 'Dec' then revenue end) as Dec_Revenue
+from Department
+group by id
+

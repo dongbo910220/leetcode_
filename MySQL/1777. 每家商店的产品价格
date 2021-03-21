@@ -1,0 +1,6 @@
+# Write your MySQL query statement below
+select distinct tb1.product_id, a.price as store1, b.price as store2, c.price  as store3
+from Products as tb1
+left join (select * from Products where store = 'store1') as a on tb1.product_id = a.product_id
+left join (select * from Products where store = 'store2') as b on tb1.product_id = b.product_id
+left join (select * from Products where store = 'store3') as c on tb1.product_id = c.product_id
