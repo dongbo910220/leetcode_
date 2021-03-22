@@ -1,0 +1,9 @@
+# Write your MySQL query statement below
+select distinct tb1.id, tb1.visit_date, tb1.people
+from Stadium as tb1, Stadium as tb2, Stadium as tb3
+where tb1.people >= 100 and tb2.people >= 100 and tb3.people >= 100 and
+( (tb1.id + 1 = tb2.id and tb1.id + 2 = tb3.id) or
+  (tb1.id - 1 = tb2.id and tb1.id + 1 = tb3.id) or
+  (tb1.id - 1 = tb2.id and tb1.id - 2 = tb3.id)
+)
+order by tb1.id;
