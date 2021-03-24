@@ -1,0 +1,12 @@
+# Write your MySQL query statement below
+select tb1.id, tb1.Company, tb1.Salary
+from Employee as tb1
+left join Employee as tb2
+on tb1.Company = tb2.Company
+group by tb1.Company , tb1.Salary
+having sum(case
+        when tb1.Salary = tb2.Salary then 1
+        else 0
+        end
+) >= abs(sum(sign(tb1.Salary - tb2.Salary)))
+order by tb1.id;
