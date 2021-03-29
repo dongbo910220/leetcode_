@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dcb877b-d5b4-4f36-8717-31ba832311cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MySQL/1097. 游戏玩法分析 V" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySQL/511. 游戏玩法分析 I" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySQL/534. 游戏玩法分析 III" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySQL/550. 游戏玩法分析 IV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/32. 最长有效括号.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/815. Bus Routes Hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/815. Bus Routes Hard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search/17. Letter Combinations of a Phone Number Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search/17. Letter Combinations of a Phone Number Medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySQL/1097. 游戏玩法分析 V" beforeDir="false" afterPath="$PROJECT_DIR$/MySQL/1097. 游戏玩法分析 V" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
