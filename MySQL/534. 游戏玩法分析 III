@@ -1,0 +1,8 @@
+'''https://leetcode-cn.com/problems/game-play-analysis-iii/solution/chao-xiang-xi-tu-jie-zi-lian-jie-by-piajun/'''
+# Write your MySQL query statement below
+select tb1.player_id ,
+        tb1.event_date ,
+        sum(tb2.games_played ) as games_played_so_far
+from Activity as tb1, Activity as tb2
+where tb1.player_id = tb2.player_id and tb1.event_date  >= tb2.event_date
+group by tb1.player_id, tb1.event_date ;

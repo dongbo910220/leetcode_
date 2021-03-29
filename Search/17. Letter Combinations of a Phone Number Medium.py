@@ -1,8 +1,3 @@
-'''
-https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-'''
-
-
 class Solution(object):
     def letterCombinations(self, digits):
         """
@@ -11,19 +6,19 @@ class Solution(object):
         """
         mapping = {'2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl',
                    '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'}
-        if len(digits) == 0:
-            return []
         res = []
-        self.dfs(mapping, digits, 0, "", res)
+        if len(digits) == 0:
+            return res
+        self.dfs(res, mapping, 0, digits, "")
         return res
 
-    def dfs(self, mapping, digits, idx, path, res):
+    def dfs(self, res, mapping, idx, digits, path):
         if len(path) == len(digits):
             res.append(path)
             return
-        for i in range(idx, len(digits)):
-            for c in mapping[digits[i]]:
-                self.dfs(mapping, digits, i + 1, path + c, res)
+        else:
+            for c in mapping[digits[idx]]:
+                self.dfs(res, mapping, idx+1, digits,path+c)
 
 
 '''

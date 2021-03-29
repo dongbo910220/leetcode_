@@ -1,0 +1,10 @@
+# Write your MySQL query statement below
+select round(
+(select count(*)
+from Activity as a, 
+(select player_id , min(event_date ) as first_date 
+from Activity
+group by player_id) as b 
+where a.player_id = b.player_id and datediff(a.event_date, b.first_date) = 1)/ count(distinct player_id ) ,2) as fraction  
+from Activity 
+
