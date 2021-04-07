@@ -1,0 +1,12 @@
+# Write your MySQL query statement below
+select round(AVG(Number), 4) as median
+from(
+    select n1.number
+    from Numbers as n1
+    join Numbers as n2 on n1.Number >= n2.Number
+    group by n1.number
+    having sum(n2.Frequency) >= (select sum(Frequency) from Numbers) / 2
+        and sum(n2.Frequency) - avg(n1.Frequency) <= (SELECT SUM(Frequency) FROM Numbers)/2
+
+
+) as s

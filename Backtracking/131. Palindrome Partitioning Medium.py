@@ -1,7 +1,7 @@
-a = [1, 2, 3]
-b = a[2:]
-b=  b + [2]
-print(b)
+# a = [1, 2, 3]
+# b = a[2:]
+# b=  b + [2]
+# print(b)
 
 
 class Solution(object):
@@ -24,3 +24,5 @@ class Solution(object):
 
     def isPal(self, s):
         return s == s[::-1]
+
+print([1]+["123"])

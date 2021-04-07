@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dcb877b-d5b4-4f36-8717-31ba832311cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MySQL/1141. 查询近30天活跃用户数" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySQL/1623. 三人国家代表队" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySQL/571. 给定数字的频率查询中位数" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySQL/574. 当选者" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySQL/595. 大的国家" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/16. 最接近的三数之和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/198. 打家劫舍.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/234. 回文链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/739. 每日温度.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/867. 转置矩阵.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySQL/1097. 游戏玩法分析 V" beforeDir="false" afterPath="$PROJECT_DIR$/MySQL/1097. 游戏玩法分析 V" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/131. Palindrome Partitioning Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/131. Palindrome Partitioning Medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/142. Linked List Cycle II Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/142. Linked List Cycle II Medium.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +34,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YmlnoUowGy0nUk45QYXNIJFpuj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MySQL" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12756\Desktop\leetcode\MySQL" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\12756\Desktop\leetcode" />
       <recent name="C:\Users\12756\Desktop\leetcode\Tree" />
@@ -46,7 +63,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.43. 字符串相乘">
+  <component name="RunManager" selected="Python.16. 最接近的三数之和">
+    <configuration name="131. Palindrome Partitioning Medium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/131. Palindrome Partitioning Medium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="13. 罗马数字转整数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +98,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/13. 罗马数字转整数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="16. 最接近的三数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/刷题leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/16. 最接近的三数之和.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,55 +169,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8. 字符串转换整数 (atoi)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/刷题leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/8. 字符串转换整数 (atoi).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="912. 排序数组" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/刷题leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/912. 排序数组.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.16. 最接近的三数之和" />
+        <item itemvalue="Python.131. Palindrome Partitioning Medium" />
         <item itemvalue="Python.43. 字符串相乘" />
         <item itemvalue="Python.18. 四数之和" />
         <item itemvalue="Python.13. 罗马数字转整数" />
-        <item itemvalue="Python.8. 字符串转换整数 (atoi)" />
-        <item itemvalue="Python.912. 排序数组" />
       </list>
     </recent_temporary>
   </component>
