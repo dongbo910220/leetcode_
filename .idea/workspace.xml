@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dcb877b-d5b4-4f36-8717-31ba832311cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MySQL/1141. 查询近30天活跃用户数" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySQL/1623. 三人国家代表队" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySQL/571. 给定数字的频率查询中位数" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySQL/574. 当选者" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySQL/595. 大的国家" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/16. 最接近的三数之和.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/198. 打家劫舍.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/234. 回文链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/739. 每日温度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/867. 转置矩阵.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/224. 基本计算器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/76. 最小覆盖子串.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/131. Palindrome Partitioning Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/131. Palindrome Partitioning Medium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/142. Linked List Cycle II Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/142. Linked List Cycle II Medium.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
