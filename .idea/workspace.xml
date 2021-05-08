@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dcb877b-d5b4-4f36-8717-31ba832311cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/224. 基本计算器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/76. 最小覆盖子串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/1190. 反转每对括号间的子串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/134. 加油站.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/279. 完全平方数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/316. 去除重复字母.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/321. 拼接最大数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/34. 在排序数组中查找元素的第一个和最后一个位置.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/347. 前 K 个高频元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/354. 俄罗斯套娃信封问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/402. 移掉K位数字.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/424. 替换后的最长重复字符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/456. 132 模式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/49. 字母异位词分组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/55. 跳跃游戏.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/59. 螺旋矩阵 II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/781. 森林中的兔子.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linked List/23. Merge k Sorted Lists Hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linked List/23. Merge k Sorted Lists Hard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/394. Decode String Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/394. Decode String Medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题leetcode/224. 基本计算器.py" beforeDir="false" afterPath="$PROJECT_DIR$/刷题leetcode/224. 基本计算器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题leetcode/76. 最小覆盖子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/刷题leetcode/76. 最小覆盖子串.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,29 +70,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.16. 最接近的三数之和">
-    <configuration name="131. Palindrome Partitioning Medium" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/131. Palindrome Partitioning Medium.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="13. 罗马数字转整数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.49. 字母异位词分组">
+    <configuration name="1190. 反转每对括号间的子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,7 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/13. 罗马数字转整数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/1190. 反转每对括号间的子串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +92,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16. 最接近的三数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="23. Merge k Sorted Lists Hard" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linked List" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linked List/23. Merge k Sorted Lists Hard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="321. 拼接最大数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +125,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/16. 最接近的三数之和.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/321. 拼接最大数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="18. 四数之和" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="402. 移掉K位数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +146,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/18. 四数之和.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/402. 移掉K位数字.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="43. 字符串相乘" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="49. 字母异位词分组" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +167,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/43. 字符串相乘.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/49. 字母异位词分组.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.16. 最接近的三数之和" />
-        <item itemvalue="Python.131. Palindrome Partitioning Medium" />
-        <item itemvalue="Python.43. 字符串相乘" />
-        <item itemvalue="Python.18. 四数之和" />
-        <item itemvalue="Python.13. 罗马数字转整数" />
+        <item itemvalue="Python.49. 字母异位词分组" />
+        <item itemvalue="Python.321. 拼接最大数" />
+        <item itemvalue="Python.402. 移掉K位数字" />
+        <item itemvalue="Python.1190. 反转每对括号间的子串" />
+        <item itemvalue="Python.23. Merge k Sorted Lists Hard" />
       </list>
     </recent_temporary>
   </component>
@@ -287,6 +304,11 @@
           <url>file://$PROJECT_DIR$/刷题leetcode/43. 字符串相乘.py</url>
           <line>15</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/刷题leetcode/76. 最小覆盖子串.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

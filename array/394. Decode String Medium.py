@@ -1,6 +1,9 @@
 '''
 https://leetcode.com/problems/decode-string/
 '''
+a = 'abc'
+b = a * 3
+print(b)
 
 class Solution(object):
     def decodeString(self, s):

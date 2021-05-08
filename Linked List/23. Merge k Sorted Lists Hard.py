@@ -92,3 +92,36 @@ class Solution(object):
             tail.next = node
             tail = tail.next
         return dummy.next
+
+lists = [[1,4,5],[1,3,4],[2,6], []]
+h = [node + [100] for node in lists if node]
+print(h)
+
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def mergeKLists(self, lists):
+        """
+        :type lists: List[ListNode]
+        :rtype: ListNode
+        """
+        if lists == None:
+            return None
+        dummy = ListNode(-1)
+        tail = dummy
+        # h = [(node.val, node) for node in lists if node]
+        h = [(node.val, node) for node in lists if node]
+        heapify(h)
+        while h:
+            val, node = h[0]
+            if node.next is None:
+                heappop(h)
+            else:
+                heappop(h)
+                heappush(h, (node.next.val, node.next))
+            tail.next = node
+            tail = tail.next
+        return dummy.next
