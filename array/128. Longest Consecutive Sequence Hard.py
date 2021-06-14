@@ -11,6 +11,46 @@ Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefor
 
 '''
 
+class Solution(object):
+    def longestConsecutive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        cnt = 0
+        maxcnt = 0
+        h = {}
+        for num in nums:
+            h[num] = 1
+        for num in nums:
+            cnt = 1
+            if num - 1 not in h:
+                l = 1
+                while num + l in h:
+                    cnt += 1
+                    l += 1
+            maxcnt = max(maxcnt, cnt)
+        return maxcnt
+
+class Solution(object):
+    def longestConsecutive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        if not nums:
+            return 0
+        nums.sort()
+        n = len(nums)
+        dp = [1] * n
+        for i, num in enumerate(nums):
+            if i > 0:
+                if nums[i-1] == nums[i] - 1:
+                    dp[i] = dp[i-1] + 1
+                elif nums[i-1] == nums[i]:
+                    dp[i] = dp[i-1]
+        return max(dp)
+
 
 class Solution(object):
     def longestConsecutive(self, nums):

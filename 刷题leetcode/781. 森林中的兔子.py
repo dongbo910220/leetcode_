@@ -14,3 +14,26 @@ class Solution(object):
                 i += 1
             i += 1
         return ans
+
+
+class Solution1(object):
+    def numRabbits(self, answers):
+        """
+        :type answers: List[int]
+        :rtype: int
+        """
+        nums = sorted(answers)
+        print(nums)
+        count = 0
+        last = -1
+        total = 0
+        for num in nums:
+            if num == last and count > 0:
+                count -= 1
+            else:
+                count =  num
+                total += (num + 1)
+                last = num
+        return count
+
+print(Solution1().numRabbits([1, 1, 2]))

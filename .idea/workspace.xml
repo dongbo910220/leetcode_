@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dcb877b-d5b4-4f36-8717-31ba832311cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/1190. 反转每对括号间的子串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/134. 加油站.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/279. 完全平方数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/316. 去除重复字母.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/321. 拼接最大数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/34. 在排序数组中查找元素的第一个和最后一个位置.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/347. 前 K 个高频元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/354. 俄罗斯套娃信封问题.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/402. 移掉K位数字.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/424. 替换后的最长重复字符.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/456. 132 模式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/49. 字母异位词分组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/55. 跳跃游戏.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/59. 螺旋矩阵 II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/781. 森林中的兔子.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/137. 只出现一次的数字 II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/152. 乘积最大子数组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/1723. 完成所有工作的最短时间.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/179. 最大数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/213. 打家劫舍 II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/227. 基本计算器 II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/27. 移除元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/33. 搜索旋转排序数组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/341. 扁平化嵌套列表迭代器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/64. 最小路径和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷题leetcode/98. 验证二叉搜索树.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked List/23. Merge k Sorted Lists Hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linked List/23. Merge k Sorted Lists Hard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/394. Decode String Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/394. Decode String Medium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题leetcode/224. 基本计算器.py" beforeDir="false" afterPath="$PROJECT_DIR$/刷题leetcode/224. 基本计算器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题leetcode/76. 最小覆盖子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/刷题leetcode/76. 最小覆盖子串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/139. Word Break Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/139. Word Break Medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linked List/61. Rotate List Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linked List/61. Rotate List Medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Search/698. Partition to K Equal Sum Subsets Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search/698. Partition to K Equal Sum Subsets Medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/128. Longest Consecutive Sequence Hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/128. Longest Consecutive Sequence Hard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题leetcode/781. 森林中的兔子.py" beforeDir="false" afterPath="$PROJECT_DIR$/刷题leetcode/781. 森林中的兔子.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +47,12 @@
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\12756\Desktop\leetcode\MySQL" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\12756\Desktop\leetcode" />
       <recent name="C:\Users\12756\Desktop\leetcode\Tree" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12756\Desktop\leetcode\MySQL" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,8 +67,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.49. 字母异位词分组">
-    <configuration name="1190. 反转每对括号间的子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.227. 基本计算器 II">
+    <configuration name="227. 基本计算器 II" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,28 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/1190. 反转每对括号间的子串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="23. Merge k Sorted Lists Hard" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linked List" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linked List/23. Merge k Sorted Lists Hard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/227. 基本计算器 II.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,13 +152,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="781. 森林中的兔子" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/刷题leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷题leetcode/781. 森林中的兔子.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.227. 基本计算器 II" />
+        <item itemvalue="Python.781. 森林中的兔子" />
         <item itemvalue="Python.49. 字母异位词分组" />
         <item itemvalue="Python.321. 拼接最大数" />
         <item itemvalue="Python.402. 移掉K位数字" />
-        <item itemvalue="Python.1190. 反转每对括号间的子串" />
-        <item itemvalue="Python.23. Merge k Sorted Lists Hard" />
       </list>
     </recent_temporary>
   </component>

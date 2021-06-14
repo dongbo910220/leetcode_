@@ -59,3 +59,45 @@ class Solution(object):
         p1.next = None
         p2.next = head
         return output
+
+
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def rotateRight(self, head, k):
+        """
+        :type head: ListNode
+        :type k: int
+        :rtype: ListNode
+        """
+        if not head or head.next == None:
+            return head
+
+        n = 0
+        p = head
+        while p:
+            p = p.next
+            n += 1
+
+        k = k % n
+        if k == 0:
+            return head
+
+        p1 = head
+        p2 = head
+        for i in range(n - k):
+            if i == n - k - 1:
+                p1 = p2
+            p2 = p2.next
+        p1.next = None
+        start = p2
+        print(p2.val)
+
+        while p2.next:
+            p2 = p2.next
+
+        p2.next = head
+        return start
