@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dcb877b-d5b4-4f36-8717-31ba832311cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/137. 只出现一次的数字 II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/152. 乘积最大子数组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/1723. 完成所有工作的最短时间.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/179. 最大数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/213. 打家劫舍 II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/227. 基本计算器 II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/27. 移除元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/33. 搜索旋转排序数组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/341. 扁平化嵌套列表迭代器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/64. 最小路径和.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/刷题leetcode/98. 验证二叉搜索树.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/139. Word Break Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/139. Word Break Medium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked List/61. Rotate List Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linked List/61. Rotate List Medium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search/698. Partition to K Equal Sum Subsets Medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search/698. Partition to K Equal Sum Subsets Medium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/128. Longest Consecutive Sequence Hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/128. Longest Consecutive Sequence Hard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题leetcode/781. 森林中的兔子.py" beforeDir="false" afterPath="$PROJECT_DIR$/刷题leetcode/781. 森林中的兔子.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
